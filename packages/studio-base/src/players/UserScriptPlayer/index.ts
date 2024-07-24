@@ -326,7 +326,7 @@ export default class UserScriptPlayer implements Player {
               if (!messagesByTopic[outTopic]) {
                 messagesByTopic[outTopic] = [];
               }
-              messagesByTopic[outTopic]?.push(outputMessage);
+              messagesByTopic[outTopic].push(outputMessage);
             }
           }
         }
